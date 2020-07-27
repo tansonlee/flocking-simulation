@@ -6,6 +6,17 @@
 
 The boid algorithm consists of 3 rules:
 
-<img src="assets/separation.png" width="200px" align="left">
-<img src="assets/alignment.png" width="200px" align="left">
-<img src="assets/cohesion.png" width="200px" align="left">
+<div>
+<img src="assets/separation.png" width="200px"> 
+  <p>l;asjdlfj</p>
+</div>
+
+<div>
+<img src="assets/alignment.png" width="200px"> 
+  <p>asdfasdf</p>
+</div>
+
+<div>
+<img src="assets/cohesion.png" width="200px"> 
+  <p>asdfasdf</p>
+</div>
