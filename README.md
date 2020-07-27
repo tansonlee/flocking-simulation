@@ -6,7 +6,7 @@ Made with JavaScript and visualized with the p5.js library
 
 <img src="assets/flocking-simulation.gif" width="600px">
 
-The boid algorithm consists of 3 rules:
+The boid algorithm consists of 3 rules which apply to the local flock (within a perception distance and a viewing angle):
 
 |Rule|Description|
 |----|----|
