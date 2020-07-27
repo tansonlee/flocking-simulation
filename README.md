@@ -19,4 +19,5 @@ The boid algorithm consists of 3 rules:
 <br>
 
 Sources: <br>
-https://en.wikipedia.org/wiki/Boids
+https://en.wikipedia.org/wiki/Boids <br>
+https://www.youtube.com/watch?v=mhjuuHl6qHM&vl=en
