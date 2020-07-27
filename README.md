@@ -6,6 +6,11 @@
 
 The boid algorithm consists of 3 rules:
 
+
+|asdf|asfd|
+|asdf|asdf|
+|asdf|asdf|
+
 <div>
 <img src="assets/separation.png" width="200px" align="left"> 
   <p>l;asjdlfj</p>
