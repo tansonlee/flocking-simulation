@@ -21,6 +21,7 @@ class Boid {
 		this.velocity.limit(this.maxSpeed);
 		this.acceleration.mult(0);
 
+		// wrap
 		if (this.position.x < 0) {
 			this.position.x = width;
 		} else if (this.position.x > width) {
