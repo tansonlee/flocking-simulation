@@ -7,7 +7,7 @@
 The boid algorithm consists of 3 rules:
 
 <div>
-<img src="assets/separation.png" width="200px"> 
+<img src="assets/separation.png" width="200px" align="left"> 
   <p>l;asjdlfj</p>
 </div>
 
