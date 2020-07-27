@@ -6,7 +6,8 @@
 
 The boid algorithm consists of 3 rules:
 
-
+|asdf|asdf|
+|----|----|
 |asdf|asfd|
 |asdf|asdf|
 |asdf|asdf|
