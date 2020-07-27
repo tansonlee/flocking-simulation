@@ -2,27 +2,21 @@
 
 ### A flocking simulation made with the Boid algorithm
 
+Made with JavaScript and visualized with the p5.js library
+
 <img src="assets/flocking-simulation.gif" width="600px">
 
 The boid algorithm consists of 3 rules:
 
-|rule|description|
+|Rule|Description|
 |----|----|
-|<img src="assets/separation.png" width="200px" align="left"> |asfd|
-|<img src="assets/alignment.png" width="200px"> |asdf|
-|<img src="assets/cohesion.png" width="200px"> |asdf|
+|<img src="assets/separation.png" width="200px" align="left"> |**Separation**: Each boid steers to avoid colliding with other boids in the local flock|
+|<img src="assets/alignment.png" width="200px"> |**Alignment**: Each boid steers to align its velocity with that of the local flock|
+|<img src="assets/cohesion.png" width="200px"> |**Cohesion**: Each boid steers toward to centre of the local flock|
 
-<div>
-<img src="assets/separation.png" width="200px" align="left"> 
-  <p>l;asjdlfj</p>
-</div>
+<br>
+<br>
+<br>
 
-<div>
-<img src="assets/alignment.png" width="200px"> 
-  <p>asdfasdf</p>
-</div>
-
-<div>
-<img src="assets/cohesion.png" width="200px"> 
-  <p>asdfasdf</p>
-</div>
+Sources: <br>
+https://en.wikipedia.org/wiki/Boids
