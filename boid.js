@@ -5,6 +5,7 @@ class Boid {
 		this.acceleration = createVector(0, 0);
 		this.maxForce = 0.2;
 		this.speed = 3;
+		this.viewAngle = TWO_PI;
 	}
 
 	show() {
@@ -93,9 +94,24 @@ class Boid {
 				boid.position.y
 			);
 
+			// check if the boid is within the perception range
 			if (boid !== this && d < perception) {
-				sumOfVelocities.add(boid.velocity);
-				boidsInPerception++;
+				// check if the boid is in front (PI / 3)
+				// find the angle between this.velocity and difference in position vector
+				// -PI / 6 < angle < PI / 6
+				const diffPosition = p5.Vector.sub(
+					boid.position,
+					this.position
+				);
+				const angleBetween = this.velocity.angleBetween(diffPosition);
+
+				if (
+					angleBetween >= -this.viewAngle / 2 &&
+					angleBetween < this.viewAngle / 2
+				) {
+					sumOfVelocities.add(boid.velocity);
+					boidsInPerception++;
+				}
 			}
 		}
 
@@ -131,8 +147,22 @@ class Boid {
 			);
 
 			if (boid !== this && d < perception) {
-				sumOfPositions.add(boid.position);
-				boidsInPerception++;
+				// check if the boid is in front (PI / 3)
+				// find the angle between this.velocity and difference in position vector
+				// -PI / 6 < angle < PI / 6
+				const diffPosition = p5.Vector.sub(
+					boid.position,
+					this.position
+				);
+				const angleBetween = this.velocity.angleBetween(diffPosition);
+
+				if (
+					angleBetween >= -this.viewAngle / 2 &&
+					angleBetween < this.viewAngle / 2
+				) {
+					sumOfPositions.add(boid.position);
+					boidsInPerception++;
+				}
 			}
 		}
 

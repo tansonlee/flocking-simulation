@@ -1,4 +1,4 @@
-let numBoids = 120;
+let numBoids = 100;
 const flock = [];
 let bird, bg;
 
