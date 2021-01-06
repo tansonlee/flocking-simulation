@@ -2,6 +2,8 @@
 
 ### A flocking simulation made with the Boid algorithm
 
+Link to hosted project: [Boid Flocking](https://tansonlee.github.io/flocking-simulation/)
+
 Made with JavaScript and visualized with the p5.js library
 
 <img src="assets/flocking-simulation.gif" width="600px">
